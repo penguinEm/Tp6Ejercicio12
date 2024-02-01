@@ -1,5 +1,5 @@
 
-# Proyecto de Aplicación Web de Noticias con React
+# Aplicación Web de Noticias con React
 
 Este proyecto es una aplicación web de noticias desarrollada con React, haciendo uso de las siguientes tecnologías y herramientas:
 
@@ -11,19 +11,30 @@ Este proyecto es una aplicación web de noticias desarrollada con React, haciend
 
 - **React:** El proyecto se basa en el framework de trabajo React, permitiendo un desarrollo eficiente y una interfaz de usuario dinámica.
 
+## Características Principales
+
+-   Búsqueda por Categoría y País: Utiliza el formulario para buscar noticias por categoría (Deportes, Entretenimiento, Tecnología) y país (Argentina, Estados Unidos, Reino Unido, Japón).
+
+-   Visualización de Noticias: Las noticias se presentan en tarjetas organizadas de manera atractiva.
+
+-   Enlace a Noticias Completas: Cada tarjeta de noticia incluye un botón "Ver más" que enlaza a la noticia completa.
+
 ## Dependencias Instaladas
-
-- npm install --save @fortawesome/fontawesome-free@6.5.1
-
-- npm i --save @fortawesome/fontawesome-svg-core
-
-- npm install --save @fortawesome/free-solid-svg-icons
-
-- npm install --save @fortawesome/react-fontawesome
-
-- npm install react-bootstrap bootstrap
+- [Documentación React-bootstrap](https://react-bootstrap.github.io/docs/getting-started/introduction)
+- [Documentación React-Fontawesome](https://fontawesome.com/v5/docs/web/use-with/react)
 
 
+- Copiar y pegar los siguientes comandos en el bash y luego realziar los imports:
+>npm install --save @fortawesome/fontawesome-free@6.5.1
+>npm i --save @fortawesome/fontawesome-svg-core
+>npm install --save @fortawesome/free-solid-svg-icons
+>npm install --save @fortawesome/react-fontawesome
+>npm install react-bootstrap bootstrap
+
+## Imports de las depdendencias (Main.jsx)
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 # React + Vite
 
